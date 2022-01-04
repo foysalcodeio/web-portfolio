@@ -1,4 +1,6 @@
-
+body{
+    margin: 0;
+}
 h1{
     font-size: 50px;
     font-family: 'The Nautigal', cursive;
@@ -14,9 +16,72 @@ h3{
 .half-width-left{
     width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 3%;
     padding-left: 2%;
 }
 .half-width-left img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding: 150px;
+}
+
+.link_button{
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    color: white;
+    text-decoration: none;
+    font-family:monospace;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;    
+}
+
+.half-width-right{
+    margin-right: 3%;
+    width: 40%;
+    float: right;
+    padding-left: 2%;
+}
+.half-width-right img{
+    width: 100%;
+}
+
+.link_button2{
+    background-image: linear-gradient(45deg, darkred, red);
+    padding: 2% 4%;
+    color: white;
+    border-radius: 10px;
+    float : left;
+    text-decoration: none;
+    font-weight: 700;
+}
+.link_button2:hover{
+    background-image: linear-gradient(54deg, blue, darkblue);
+}
+.name-hightlight2{
+    color: maroon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top-banner2{
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.half-width{
+    margin-left: 2%;
+    width: 45%;
+    float: left;
+    padding-left: 2%;
+}
+.half-width h3{
+    color: orange;
+}
+.half-width p{
+    color: rgb(143,143,143);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
