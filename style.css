@@ -72,11 +72,25 @@ section{
     background-repeat: no-repeat;
     background-position-x: right;
 }
+
+.experence-area{
+    padding: 5%;
+    margin-left: 4px;
+    background-image: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .half-width{
     margin-left: 2%;
-    width: 45%;
+    width: 40%;
     float: left;
-    padding-left: 2%;
+    padding: 3% 1%;
+
 }
 .half-width h3{
     color: orange;
@@ -84,4 +98,20 @@ section{
 .half-width p{
     color: rgb(143,143,143);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.single-experience{
+    box-shadow: 8px 8px 40px gray;
+    border-radius: 20px 0 20px 0;
+    height: 50%;
+
+}
+#full-stack{
+    border-left: 12px solid blue;
+    border-image: linear-gradient(180deg,lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-stack{
+    border-left: 12px solid blue;
+    border-image: linear-gradient(180deg, darkblue, blue);
+    border-image-slice: 2;
 }
